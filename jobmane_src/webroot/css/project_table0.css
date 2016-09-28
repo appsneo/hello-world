@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.project_table{
+	background-color: #fff;
+	margin-top: 10px; }
+div.project_table div.inbox{
+	padding: 10px; }
+div.project_table h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+
+div.project_table .project_table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+div.project_table span.not_started{
+	color: #fff;
+	font-size: 10px;
+	background-color: #878787;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px #878787;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_table span.progress{
+	color: #fff;
+	font-size: 10px;
+	background-color: #15274d;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px #15274d;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_table span.end{
+	color: #ff4242;
+	font-size: 10px;
+	background-color: #fff;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_table .project_table th {
+	color: #333;
+	background: #efefef;
+	padding: 5px;
+	vertical-align: top;
+	border: solid 1px #ccc; }
+div.project_table .project_table td.name{}
+div.project_table .project_table td.name a{
+	color: #333;
+	text-decoration: underline; }
+div.project_table .project_table td.name a:hover{
+	text-decoration: none; }
+div.project_table .project_table td {
+	color: #333;
+	font-size: 10px;
+	padding: 5px;
+	vertical-align: middle;
+	border: solid 1px #ccc; }
+div.project_table .project_table td.name{
+	line-height: 1.5em;
+	background-color: #efefef;
+	text-align: left; }
+table.project_table select.status,#clonetable select.status{
+	font-size: 12px;
+	margin-top: 5px;
+	display: block; }
+table.project_table select.status option,#clonetable select.status option{
+	padding: 3px; }
+table.project_table ul.sort,#clonetable ul.sort{
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none; }
+table.project_table ul.sort li,#clonetable ul.sort li{
+	display: block; }
+table.project_table ul.sort li a,#clonetable ul.sort li a{
+	color: #666;
+	font-size: 12px;
+	background-color: #fff;
+	display: block;
+	margin-bottom: 5px;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(white), to(#e5e5e5));
+	background-image: -webkit-linear-gradient(top, white, #e5e5e5);
+	background-image: -moz-linear-gradient(top, white, #e5e5e5);
+	background-image: -o-linear-gradient(top, white, #e5e5e5);
+	background-image: -ms-linear-gradient(top, white, #e5e5e5);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(white), to(#e5e5e5)); }
+table.project_table ul.sort li a span,#clonetable ul.sort li a span{
+	font-size: 8px;
+	font-weight: normal;
+	white-space: nowrap;
+	display: block; }
+table.project_table ul.sort li a:hover,#clonetable ul.sort li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+table.project_table ul.sort li.top,#clonetable ul.sort li.top{}
+table.project_table ul.sort li.down,#clonetable ul.sort li.down{}
+table.project_table ul.sort li.top a,#clonetable ul.sort li.top a{
+	padding: 3px;
+	border: solid 1px #ccc;
+	border-radius: 10px; }
+table.project_table ul.sort li.down a,#clonetable ul.sort li.down a{
+	padding: 3px;
+	border: solid 1px #ccc;
+	border-radius: 10px; }
+
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.project_table{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.project_table div.inbox{
+	padding: 25px; }
+div.project_table h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.project_table .project_table th {
+	padding: 10px; }
+div.project_table .project_table td {
+		font-size: 13px;
+		padding: 10px; }
+div.project_table span.not_started{
+	font-size: 12px;}
+div.project_table span.progress{
+	font-size: 12px;}
+div.project_table span.end{
+	font-size: 12px;}
+table.project_table select.status,#clonetable select.status{
+	font-size: 16px; }
+table.project_table select.status option,#clonetable select.status option{
+	padding: 5px; }
+table.project_table ul.sort li,#clonetable ul.sort li{
+	width: 50%;
+	float: left;
+	display: inline; }
+table.project_table ul.sort li a,#clonetable ul.sort li a{
+	margin-bottom: 0px;
+}
+table.project_table ul.sort li a span,#clonetable ul.sort li a span{
+	font-size: 10px; }
+table.project_table ul.sort li.top a,#clonetable ul.sort li.top a{
+	padding: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px; }
+table.project_table ul.sort li.down a,#clonetable ul.sort li.down a{
+	padding: 5px;
+	border-width: 1px 1px 1px 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px; }
+
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

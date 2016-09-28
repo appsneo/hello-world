@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+
+/* Pagenation の上書き用r */
+
+ul.pagenation li.active {
+  margin-right: 7px;
+  padding-right: 5px;
+  padding: 0;
+  border: 1px solid #000;
+}
+ul.pagenation li {
+  margin-right: 7px;
+  padding-right: 2px;
+  paddingx: 0px;
+}
+ul.pagenation li a{
+  margin-right: 0px;
+  padding-right: 0 2px 0 2px;
+  paddingx: 0px;
+}

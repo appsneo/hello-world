@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*plugin*/
+.slidemenu {
+	background-color: #fff;
+	top: 0;
+	position: fixed;
+	visibility: hidden;
+	z-index: -1; }
+.slidemenu .slidemenu-header {
+  position: relative;
+  }
+.slidemenu .slidemenu-body {
+	height: 100%;
+	overflow: hidden;
+	position: relative; }
+.slidemenu .slidemenu-body .slidemenu-content {
+	position: relative;
+	padding-bottom: 160px; }
+
+.slidemenu-left {
+    left: 0;
+}
+.slidemenu-right {
+	right: 0;
+	width: 270px; }
+/*デザイン*/
+.slidemenu .slidemenu-header .user_box{
+	background-color: #efefef; }
+.slidemenu .slidemenu-header .user_box dl.user{
+	padding: 15px; }
+.slidemenu .slidemenu-header .user_box dl.user dt.avatar{
+	float: left;
+	margin-right: 15px; }
+.slidemenu .slidemenu-header .user_box dl.user dt.avatar img{
+	width: 40px;
+	border-radius: 50%;
+}
+.slidemenu .slidemenu-header .user_box dl.user dd.name{
+	color: #333;
+	font-size: 12px;
+	float: left;
+	padding-top: 2px;
+	width: 65%;
+}
+.slidemenu .slidemenu-header .user_box dl.user dd.name span.name{
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+.slidemenu .slidemenu-header .user_box dl.user dd.name span.logout{
+	display: block; }
+.slidemenu .slidemenu-header .user_box dl.user dd.name span.logout a{
+	color: #333; }
+.slidemenu .slidemenu-header .user_box dl.user dd.name span.logout a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+.slidemenu .slidemenu-body p.subtitle{
+	color: #15274d;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom: 2px solid #ddd; }
+.slidemenu .slidemenu-body ul.menu{
+	list-style-type: none; }
+.slidemenu .slidemenu-body ul.menu li{
+	border-bottom: 1px solid #ccc; }
+.slidemenu .slidemenu-body ul.menu li a{
+	color: #333;
+	font-size: 14px;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 10px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	padding: 15px 10px;
+	display: block; }
+.slidemenu .slidemenu-body ul.menu li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+.slidemenu .slidemenu-header .user_box dl.user dt.avatar img{
+	width: 62px;
+}
+.slidemenu .slidemenu-header .user_box dl.user dd.name{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+}

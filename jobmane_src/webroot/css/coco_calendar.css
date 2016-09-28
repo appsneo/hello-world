@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+
+/* Calendar の上書き用r */
+
+/* カレンダーボタンの枠はみ出し対応 */
+.fc-button .fc-icon {
+	font-size: 1.8em;
+}
+
+/* バーの余白 */
+td.fc-event-container{
+	padding-bottom: 5px;
+}
+.fc-sun { color: #999999; } /* 日曜日 */
+.fc-sat { color: #999999; } /* 土曜日 */
+.delete-events_class,
+.delete-events_date{
+	display: table;
+	width: 300px;
+	padding: 0;
+	margin: 0 auto;
+}
+.delete-events_date{
+	width: 720px;
+}
+.delete-events_class li,
+.delete-events_date li{
+	display: table-cell;
+	padding: 5px 10px;
+	text-align: center;
+}
+.delete-events_class li a{
+	padding: 5px;
+}
+.fc-time{
+	display: none;
+}

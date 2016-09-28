@@ -1,0 +1,115 @@
+@charset "utf-8";
+@page{ size: A4; }/* A4タテ */
+
+/* @header */
+header{
+	display: none; }
+/* @content */
+body{
+	width: 210mm; /* needed for Chrome */
+	background-color: #ffffff;
+}
+section#body{
+	background-color: #fff;
+	padding-top: 0; }
+div.print_btn{
+	display: none; }
+div.daily_report_edit{
+	width: 100%;
+	margin-top: 0; }
+div.daily_report_edit h1{
+	display: none;
+}
+div.monthly_report_print{
+	width: 100%;
+	margin-top: 0; }
+div.monthly_report_print div.inbox{
+	padding: 0px; }
+div.monthly_report_print div.title{
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 3px;
+	padding-bottom:3px; }
+div.monthly_report_print table.info {
+	margin-bottom: 15px; }
+div.monthly_report_print table.info th {
+	font-size: 8px;
+	line-height: 1.2em;
+	padding: 2px; }
+div.monthly_report_print table.info td {
+	font-size: 8px;
+	line-height: 1.2em;
+	padding: 2px; }
+div.monthly_report_print table.detail {
+	margin-bottom: 15px; }
+div.monthly_report_print table.detail th {
+	font-size: 8px;
+	line-height: 1.2em;
+	padding: 2px; }
+div.monthly_report_print table.detail td {
+	font-size: 8px;
+	line-height: 1.2em;
+	padding: 2px; }
+div.monthly_report_print table.report_list td p.ellipsis {
+	font-size: 8px;
+	line-height: 1.4em;
+	max-height: 25px; }
+div.monthly_report_print table.report_list th {
+	font-size: 8px;
+	line-height: 1.4em;
+	padding: 3px; }
+div.monthly_report_print table.report_list td {
+	font-size: 8px;
+	line-height: 1.4em;
+	padding: 3px; }
+
+div.monthly_report_print section.a4-print{
+	page-break-after: always;
+	}
+
+/*ChromeとOperaのみだけに適用されるCSSハック*/
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+div.monthly_report_print table.report_list td p.ellipsis {
+	line-height: 1.2em;
+	max-height: 21px; }
+div.monthly_report_print table.report_list th {
+	line-height: 1.3em;
+	padding: 2px; }
+div.monthly_report_print table.report_list td {
+	line-height: 1.3em;
+	padding: 2px; }
+}
+
+
+/*Firefoxだけに適用されるCSSハック*/
+@-moz-document url-prefix() {
+div.monthly_report_print table.report_list td p.ellipsis {
+	font-size: 8px;
+	line-height: 1.3em;
+	max-height: 22px; }
+div.monthly_report_print table.report_list th {
+	font-size: 8px;
+	line-height: 1.3em;
+	padding: 3px; }
+div.monthly_report_print table.report_list td {
+	font-size: 8px;
+	line-height: 1.3em;
+	padding: 3px; }
+}
+
+/*Safariだけに適用されるCSSハック*/
+_::-webkit-:not(:root:root), div.monthly_report_print table.report_list td p.ellipsis {
+	line-height: 1.3em;
+	max-height: 22px; }
+_::-webkit-:not(:root:root), div.monthly_report_print table.report_list th {
+	line-height: 1.3em;
+	padding: 3px; }
+_::-webkit-:not(:root:root), div.monthly_report_print table.report_list td {
+	line-height: 1.3em;
+	padding: 3px; }
+
+@footer */
+
+

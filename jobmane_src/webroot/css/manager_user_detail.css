@@ -1,0 +1,579 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.manager_user_detail{
+	background-color: #fff;
+	margin-top: 10px; }
+div.manager_user_detail div.inbox{
+	padding: 10px; }
+div.manager_user_detail div.inbox2{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto; }
+div.manager_user_detail h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.manager_user_detail h2.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_user_detail h2.any{
+	color: #333;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.manager_user_detail span.required{
+	color: #fff;
+	font-size: 10px;
+	background-color: #ff3f3f;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding: 2px 4px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail p.password_change{
+	margin-bottom: 20px; }
+div.manager_user_detail p.password_change a{
+	color: #0022e7;
+	font-size: 12px;
+	text-decoration: underline; }
+div.manager_user_detail p.password_change a:hover{
+	text-decoration: none; }
+div.manager_user_detail input.text{
+	color: #333;
+	font-size: 16px;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+
+div.manager_user_detail ul.password{
+	margin-bottom: 20px;
+	list-style-type: none; }
+div.manager_user_detail ul.password li{
+	font-size: 12px;
+	width: 48%;
+	float: left;
+	margin-right: 4%; }
+div.manager_user_detail ul.password li:last-child{
+	margin-right: 0; }
+
+div.manager_user_detail span.small{
+	color: #555;
+	font-size: 10px; }
+div.manager_user_detail input.password{
+	color: #333;
+	font-size: 16px;
+	width: 94%;
+	padding: 1.5%;
+	border: solid 1px #ccc;
+	margin-bottom: 20px; }
+div.manager_user_detail ul.password li input.password{
+	padding: 3%;
+	margin-bottom: 0px;}
+div.manager_user_detail div.row{
+	margin-bottom: 20px; }
+div.manager_user_detail div.row div.left_box{
+	background-color: #efefef;
+	width: 44%;
+	float: left;
+	min-height: 70px;
+	margin-right: 4%;
+	padding: 2%;
+	border-radius: 10px; }
+div.manager_user_detail div.row div.right_box{
+	background-color: #efefef;
+	width: 44%;
+	float: right;
+	min-height: 70px;
+	padding: 2%;
+	border-radius: 10px; }
+div.manager_user_detail dl.authority{
+	text-align: center; }
+div.manager_user_detail dl.authority dt{
+	font-size: 12px;
+	text-align: right;
+	width: 32%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail dl.authority dd{
+	width: 66%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail dl.authority dd select{
+	font-size: 12px;
+	width: 90%; }
+div.manager_user_detail dl.authority dd select option{
+	padding: 2%; }
+div.manager_user_detail dl.account_status{}
+div.manager_user_detail dl.account_status dt{
+	font-size: 12px;
+	vertical-align: top;
+	margin-right: 3%;
+	padding: 4%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail dl.account_status dt input{
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);}
+div.manager_user_detail dl.account_status dd{
+	font-size: 12px;
+	width: 73%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail dl.account_status dd span.small{
+	color: #555;
+	font-size: 10px;
+	line-height: 1.2em;
+	display: block; }
+div.manager_user_detail div#avatar{
+	text-align: center;
+	margin-bottom: 10px; }
+div.manager_user_detail div#avatar img{
+	width: 100px;
+	border-radius: 50%; }
+div.manager_user_detail div#select-file{
+	text-align: center;
+	margin-bottom: 20px; }
+div.manager_user_detail div#select-file input{
+	font-size: 12px; }
+
+div.manager_user_detail ul.pulldown{
+	text-align: left;
+	margin-left: 7%;
+	list-style-type: none; }
+div.manager_user_detail ul.pulldown li{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail ul.pulldown li:last-child{
+	margin-right: 0px;}
+div.manager_user_detail ul.pulldown li select.time{
+	font-size: 12px;
+	margin-right: 3px; }
+div.manager_user_detail ul.pulldown li select.time option{
+	padding: 5px; }
+div.manager_user_detail div.blood_type{
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left: 7%; }
+div.manager_user_detail div.blood_type select.blood_type{
+	font-size: 12px;
+	margin-right: 3px; }
+div.manager_user_detail div.blood_type select.blood_type option{
+	padding: 5px; }
+div.manager_user_detail textarea.text{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.2%; }
+div.manager_user_detail div.save_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+div.manager_user_detail div.save_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.manager_user_detail div.save_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @社長専用項目 */
+div.manager_user_detail div#president_box{
+	background-color: #efefef;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px; }
+div.manager_user_detail div#president_box h2.designated_title{
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.manager_user_detail div#president_box h3.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_user_detail div#president_box h3.sub_title2{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.manager_user_detail div#president_box input.company_text{
+	color: #333;
+	font-size: 16px;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_user_detail div#president_box div.inbox3{
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px; }
+div.manager_user_detail div#president_box h4.sub_title{
+	color: #555;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_user_detail div#president_box ul.time{
+	margin-bottom: 15px; }
+div.manager_user_detail div#president_box ul.time li{
+	color: #555;
+	margin-right: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail div#president_box ul.time li:last-child{
+	margin-right: 0px;}
+div.manager_user_detail div#president_box ul.time li select.time_select{}
+div.manager_user_detail div#president_box ul.time li select.time_select option{
+	padding: 5px; }
+div.manager_user_detail div#president_box ul.radio{
+	margin-bottom: 15px; }
+div.manager_user_detail div#president_box ul.radio li{
+	color: #555;
+	margin-right: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail div#president_box ul.radio li:last-child{
+	margin-right: 0px;}
+div.manager_user_detail div#president_box ul.radio li input{
+	vertical-align: middle;
+	margin-left: 5px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4); }
+div.manager_user_detail div#president_box div.hourly_pay{
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 20px; }
+div.manager_user_detail div#president_box div.hourly_pay input.hourly_pay{
+	font-size: 16px;
+	text-align: right;
+	width: 50%;
+	margin-right: 5px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_user_detail div#president_box ul.list{
+	list-style-type: none; }
+div.manager_user_detail div#president_box ul.list li{
+	font-size: 13px;
+	font-weight: bold;
+	text-indent: -10px;
+	margin-bottom: 10px;
+	padding-left: 10px; }
+div.manager_user_detail div#president_box ul.list li:before {content:"・";}
+
+div.manager_user_detail div#president_box div.go_edit_btn{
+	width: 90%;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto; }
+div.manager_user_detail div#president_box div.go_edit_btn a{
+	color: #fff;
+	font-size: 12px;
+	background-color: #6f6f6f;
+	background-image: url(../img/common/lgray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	text-align: center;
+	padding: 10px 20px;
+	border-bottom: 2px solid #565656;
+	display: block;
+	border-radius: 10px; }
+div.manager_user_detail div#president_box div.go_edit_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_user_detail div#president_box p.atte{
+	color: #555;
+	font-size: 11px;
+	line-height: 1.3em;
+	text-indent: -10px;
+	width: 85%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-left: 10px; }
+/* @追加/編集 */
+div.repeater{
+	width: 95%;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto; }
+div.repeater div.material{
+	 }
+div.repeater div.material div{
+	margin-bottom: 10px; }
+div.repeater div.material div input{
+	color: #333;
+	font-size: 16px;
+	width: 95%;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.header_box{
+	width: 95%;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	}
+div.header_box div.color{
+	font-size: 11px;
+	color: #555555;
+    float: left;
+	width: 25%;
+	margin-right: 5%;}
+div.header_box div.category{
+	font-size: 11px;
+	color: #555555;
+    float: left;
+    width: 60%;}
+div.repeater div.material div input.category{
+    float: left;
+    width: 60%;
+    }
+div.repeater div.material div input.color{
+    float: left;
+	width: 25%;
+	margin-right: 2%;
+	}
+div.repeater div.edit_btn{}
+div.repeater div.edit_btn span{
+	color: #fff;
+	font-size: 12px;
+	background-color: #333;
+	text-align: center;
+	padding: 10px 40px;
+	border-bottom: 2px solid #111;
+	cursor: pointer;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.repeater div.edit_btn span:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_user_detail div.save_edit_btn{
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto; }
+div.manager_user_detail div.save_edit_btn a{
+	font-size: 14px;
+	color: #fff;
+	background-color: #55668b;
+	background-image: url(../img/common/gray_arrow_back.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 7px 50%;
+	text-align: center;
+	width: 9em;
+	padding: 10px 30px 10px 40px;
+	border-bottom: 2px solid #405071;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.manager_user_detail div.save_edit_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_user_detail div.cancel_edit_btn{
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto; }
+div.manager_user_detail div.cancel_edit_btn a{
+	font-size: 14px;
+	color: #fff;
+	background-color: #999;
+	background-image: url(../img/common/lgray_back_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 7px 50%;
+	text-align: center;
+	width: 9em;
+	padding: 10px 30px 10px 40px;
+	border-bottom: 2px solid #777;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.manager_user_detail div.cancel_edit_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @エラー時 */
+div.manager_user_detail ul.error{
+	background-color: #ffd9d9;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: solid 1px #ff3f3f;
+	list-style-type: none; }
+div.manager_user_detail ul.error li{
+	color: #ff3f3f;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: -10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_detail ul.error li:before {content:"・";}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.manager_user_detail{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.manager_user_detail div.inbox{
+	padding: 25px; }
+div.manager_user_detail h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.manager_user_detail h2.sub_title{
+	font-size: 14px; }
+div.manager_user_detail span.required{
+		font-size: 12px;
+		margin-left: 7px;
+		padding-right: 6px;
+		padding-left: 6px; }
+div.manager_user_detail h2.any{
+	font-size: 14px; }
+div.manager_user_detail ul.password li{
+	font-size: 14px; }
+div.manager_user_detail span.small{
+	font-size: 12px; }
+div.manager_user_detail dl.authority dt{
+	font-size: 14px; }
+div.manager_user_detail dl.authority dd select{
+	font-size: 16px; }
+
+div.manager_user_detail dl.account_status dt{
+	font-size: 14px;}
+div.manager_user_detail dl.account_status dt input{
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6);}
+div.manager_user_detail dl.account_status dd{
+	font-size: 14px;}
+div.manager_user_detail dl.account_status dd span.small{
+	font-size: 12px; }
+div.manager_user_detail div#select-file input{
+	font-size: 14px; }
+div.manager_user_detail ul.pulldown li select.time{
+	font-size: 16px;
+	margin-right: 5px; }
+div.manager_user_detail div.blood_type select.blood_type{
+	font-size: 16px;
+	margin-right: 5px; }
+div.manager_user_detail div.save_btn a{
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #405071; }
+
+/* @社長専用項目 */
+div.manager_user_detail div#president_box{
+	background-color: #efefef;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px; }
+div.manager_user_detail div#president_box h2.designated_title{
+	font-size: 14px;
+	margin-bottom: 25px;
+	padding-bottom: 5px; }
+div.manager_user_detail div#president_box h3.sub_title{
+	font-size: 14px;
+	margin-bottom: 10px; }
+div.manager_user_detail div#president_box h3.sub_title2{
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-bottom: 5px; }
+div.manager_user_detail div#president_box div.inbox3{
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px; }
+div.manager_user_detail div#president_box h4.sub_title{
+	font-size: 14px;
+	margin-bottom: 7px; }
+div.manager_user_detail div#president_box ul.time{
+	margin-bottom: 20px; }
+div.manager_user_detail div#president_box ul.time li{
+	margin-right: 25px;}
+div.manager_user_detail div#president_box ul.radio{
+	margin-bottom: 20px; }
+div.manager_user_detail div#president_box ul.radio li input{
+	margin-left: 7px;
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6); }
+div.manager_user_detail div#president_box div.hourly_pay{
+	font-size: 14px;
+	margin-bottom: 25px; }
+div.manager_user_detail div#president_box ul.list li{
+	font-size: 15px;
+	text-indent: -15px;
+	margin-bottom: 15px;
+	padding-left: 15px; }
+
+div.manager_user_detail div#president_box div.go_edit_btn{
+	margin-bottom: 7px; }
+div.manager_user_detail div#president_box div.go_edit_btn a{
+	font-size: 13px; }
+div.manager_user_detail div#president_box p.atte{
+	font-size: 12px;
+	text-indent: -15px;
+	padding-left: 15px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

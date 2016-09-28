@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.project_detail{
+	background-color: #fff;
+	margin-top: 10px; }
+div.project_detail div.inbox{
+	padding: 10px; }
+div.project_detail h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.project_detail div.title_box{
+	margin-top: 15px;
+	margin-bottom: 10px; }
+div.project_detail div.end{
+	background-image: url(../img/project/end_mark.png);
+	background-size: 50px auto;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	min-height: 50px;}
+div.project_detail div.title_box div.txt_box{
+	width: 80%; }
+div.project_detail div.title_box h2.project_title{
+	color: #333;
+	font-size: 14px;
+	line-height: 1.3em; }
+div.project_detail div.title_box span.article_num{
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5em;
+	display: block; }
+div.project_detail div.title_box span.client{
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5em;
+	display: block; }
+div.project_detail table.period{
+	border: solid 1px #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 10px; }
+div.project_detail table.period th{
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	background: #efefef;
+	padding: 5px;
+	vertical-align: top;
+	border: solid 1px #ccc; }
+div.project_detail table.period td{
+	color: #333;
+	font-size: 12px;
+	padding: 5px;
+	vertical-align: middle;
+	border: solid 1px #ccc;}
+div.project_detail ul.view_change_btn{
+	text-align: right;
+	margin-bottom: 15px;
+	list-style-type: none; }
+div.project_detail ul.view_change_btn li{
+	margin-left: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_detail ul.view_change_btn li a{
+	color: #666;
+	font-size: 13px; }
+div.project_detail ul.view_change_btn li a img{
+	vertical-align: middle;
+	width: auto;
+	height: 15px;
+	margin-right: 3px; }
+div.project_detail ul.view_change_btn li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.project_detail h3.sub_title{
+	color: #333;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.project_detail p.sub_copy{
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px; }
+div.project_detail p.person_name{
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-bottom: 20px;}
+div.project_detail p.person_name:before {content:"・";}
+div.project_detail div.documents_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto; }
+div.project_detail div.documents_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.project_detail div.documents_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.project_detail ul.user_list{}
+div.project_detail ul.user_list li{
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_detail ul.user_list li:before {content:"・";}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.project_detail{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.project_detail div.inbox{
+	padding: 25px; }
+div.project_detail h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.project_detail div.title_box{
+		margin-top: 25px;
+		margin-bottom: 15px; }
+div.project_detail div.end{
+		min-height: 70px;
+		background-size: 70px auto;}
+div.project_detail div.title_box h2.project_title{
+		font-size: 18px;
+		margin-bottom: 5px; }
+div.project_detail div.title_box span.article_num{
+		font-size: 14px;
+		margin-bottom: 5px; }
+div.project_detail div.title_box span.client{
+	font-size: 14px; }
+div.project_detail table.period th{
+	font-size: 14px;
+	padding: 5px;}
+div.project_detail table.period td{
+	font-size: 13px;
+	padding: 5px;}
+div.project_detail ul.view_change_btn{
+	margin-bottom: 25px; }
+div.project_detail ul.view_change_btn li{
+	margin-left: 40px;}
+div.project_detail ul.view_change_btn li a{
+	font-size: 16px; }
+div.project_detail ul.view_change_btn li a img{
+	height: 26px;
+	margin-right: 5px; }
+
+div.project_detail h3.sub_title{
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-bottom: 5px; }
+div.project_detail p.sub_copy{
+	font-size: 13px;
+	margin-bottom: 30px; }
+div.project_detail p.person_name{
+	font-size: 13px;
+	margin-bottom: 30px; }
+div.project_detail div.documents_btn{
+	margin-bottom: 40px; }
+div.project_detail div.documents_btn a{
+		font-size: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #405071; }
+div.project_detail div.documents_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.project_detail ul.user_list{}
+div.project_detail ul.user_list li{
+		font-size: 13px;
+		margin-right: 15px;
+		margin-bottom: 15px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

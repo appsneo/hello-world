@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.project_calendar{
+	background-color: #fff;
+	margin-top: 10px; }
+div.project_calendar div.inbox{
+	padding: 10px; }
+div.project_calendar h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.project_calendar h2.project_title{
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-left: 15px; }
+div.project_calendar div.list_btn{
+	margin-bottom: 15px; }
+div.project_calendar div.list_btn a{
+	color: #666;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.project_calendar div.list_btn a img{
+	width: 10px;
+	vertical-align: middle;
+	margin-right: 10px; }
+div.project_calendar div.list_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.project_calendar dl.user{
+	text-align: left;
+	margin-bottom: 10px; }
+div.project_calendar dl.user dt{
+	text-align: center;
+	width: 15%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_calendar dl.user dt img{
+	vertical-align: middle;
+	width: 100%;
+	max-width: 30px;
+	border-radius: 50%; }
+div.project_calendar dl.user dd{
+	font-size: 14px;
+	font-weight: bold;
+	width: 80%;
+	padding-left: 3px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.project_calendar{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.project_calendar div.inbox{
+	padding: 25px; }
+div.project_calendar div.list_btn a{
+	font-size: 14px; }
+div.project_calendar h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.project_calendar h2.project_title{
+	font-size: 18px;
+	margin-bottom: 15px;
+	margin-left: 15px; }
+div.project_calendar div.list_btn a img{
+	width: 14px; }
+div.project_calendar dl.user{
+	margin-bottom: 15px; }
+div.project_calendar dl.user dd{
+	font-size: 18px;}
+div.project_calendar dl.user dt img{
+	max-width: 60px; }
+/* @calendar */
+
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

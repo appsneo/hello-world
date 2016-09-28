@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.monthly_report_edit{
+	background-color: #fff;
+	margin-top: 10px; }
+div.monthly_report_edit div.inbox{
+	padding: 10px; }
+div.monthly_report_edit h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.monthly_report_edit h2.client_title{
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-bottom: 10px; }
+div.monthly_report_edit dl.user{
+	text-align: left;
+	margin-bottom: 10px; }
+div.monthly_report_edit dl.user dt{
+	text-align: center;
+	width: 15%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_edit dl.user dt img{
+	vertical-align: middle;
+	width: 100%;
+	max-width: 40px;
+	border-radius: 50%; }
+div.monthly_report_edit dl.user dd{
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: middle;
+	width: 80%;
+	padding-left: 3px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_edit h3.sub_title{
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_edit ul.radio{
+	text-align: left;
+	margin-bottom: 10px;
+	list-style-type: none; }
+div.monthly_report_edit ul.radio li{
+	margin-right: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_edit ul.radio li:last-child{
+	margin-right: 0px;}
+div.monthly_report_edit ul.radio li input{
+	vertical-align: middle;
+	margin-left: 5px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4); }
+div.monthly_report_edit h4.sub_copy{
+	color: #555;
+	font-size: 11px;
+	font-weight: normal; }
+div.monthly_report_edit div.etc_txt{
+	margin-bottom: 20px; }
+div.monthly_report_edit div.etc_txt input.etc_txt{
+	font-size: 16px;
+	width: 90%;
+	padding: 1%; }
+div.monthly_report_edit div.etc_txt input.etc_txt[type="text"][disabled]{
+	background-color: #ddd;
+	border-width: 1px; }
+div.monthly_report_edit ul.time{
+	text-align: left;
+	margin-top: 15px;
+	list-style-type: none; }
+div.monthly_report_edit ul.time li{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_edit ul.time li:last-child{
+	margin-right: 0px;}
+div.monthly_report_edit ul.time li select.time{
+	font-size: 12px;
+	margin-right: 3px; }
+div.monthly_report_edit ul.time li select.time option{
+	padding: 5px; }
+div.monthly_report_edit div.save_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+div.monthly_report_edit div.save_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.monthly_report_edit div.save_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.monthly_report_edit{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.monthly_report_edit div.inbox{
+	padding: 25px; }
+div.monthly_report_edit h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.monthly_report_edit h2.client_title{
+	font-size: 16px; }
+
+div.monthly_report_edit dl.user{
+	margin-bottom: 15px; }
+div.monthly_report_edit dl.user dd{
+	font-size: 18px;}
+div.monthly_report_edit dl.user dt img{
+	max-width: 60px; }
+
+div.monthly_report_edit ul.time li{
+	margin-right: 25px;
+	margin-bottom: 35px;}
+div.monthly_report_edit ul.time li select.time{
+		font-size: 16px;
+		margin-right: 5px; }
+div.monthly_report_edit ul.time li select.time option{
+	padding: 6px; }
+div.monthly_report_edit h3.sub_title{
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-bottom: 5px; }
+div.monthly_report_edit ul.radio li{
+	font-size: 14px;
+	margin-right: 25px;}
+div.monthly_report_edit h4.sub_copy{
+	font-size: 13px; }
+div.monthly_report_edit div.etc_txt{
+	margin-bottom: 40px; }
+div.monthly_report_edit div.save_btn{
+	margin-bottom: 25px;
+}
+div.monthly_report_edit div.save_btn a{
+	font-size: 16px;
+	padding: 15px;
+	border-bottom: 3px solid #405071; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

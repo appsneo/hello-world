@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.daily_report_edit{
+	background-color: #fff;
+	margin-top: 10px; }
+div.daily_report_edit div.inbox{
+	padding: 10px; }
+div.daily_report_edit h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.daily_report_edit h2.company_name{
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+	margin-bottom: 15px; }
+div.daily_report_edit h3.user_name{
+	margin-bottom: 15px; }
+div.daily_report_edit h3.end{
+	background-image: url(../img/daily_report/end_mark.png);
+	background-size: 50px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	min-height: 50px; }
+div.daily_report_edit h3.user_name span.avatar{
+	text-align: center;
+	width: 12%;
+	float: left;
+	display: block; }
+div.daily_report_edit h3.user_name span.avatar img{
+	vertical-align: middle;
+	width: 100%;
+	max-width: 50px;
+	border-radius: 50%; }
+div.daily_report_edit h3.user_name span.name{
+	font-size: 14px;
+	width: 70%;
+	float: left;
+	padding-top: 2%;
+	padding-left: 1.2%;
+	display: block; }
+div.daily_report_edit ul.outline{
+	list-style-type: none; }
+div.daily_report_edit ul.outline li{
+	margin-bottom: 15px; }
+div.daily_report_edit ul.outline li h4.sub_title{
+	color: #555;
+	font-size: 12px;
+	font-weight: normal; }
+div.daily_report_edit ul.outline li p.content{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5em; }
+div.daily_report_edit ul.outline li span.input{
+	display: block; }
+div.daily_report_edit ul.outline li span.input input{
+	color: #333;
+	font-size: 16px;
+	width: 92%;
+	padding: 1%; }
+div.daily_report_edit div.time-check_box{
+	background-color: #efefef;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; }
+div.daily_report_edit div.time-check_box ul.time{
+	list-style-type: none; }
+div.daily_report_edit div.time-check_box ul.time li{
+	text-align: center;
+	margin-bottom: 20px; }
+div.daily_report_edit div.time-check_box ul.time li:last-child{
+	margin-bottom: 0px;}
+div.daily_report_edit div.time-check_box ul.time li span.required{
+	color: #fff;
+	font-size: 10px;
+	background-color: #ff3f3f;
+	vertical-align: middle;
+	padding: 2px 4px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.time-check_box ul.time li span.time{
+	margin-right: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.time-check_box ul.time li span.time select.time_select{
+	font-size: 13px;
+	padding: 5px; }
+div.daily_report_edit div.time-check_box ul.time li span.time select.time_select option{}
+div.daily_report_edit div.time-check_box div.detail_check{}
+div.daily_report_edit div.time-check_box div.detail_check ul.check{
+	text-align: center;
+	margin-top: 20px;
+	list-style-type: none; }
+div.daily_report_edit div.time-check_box div.detail_check ul.check li{
+	margin-right: 15px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.time-check_box div.detail_check ul.check li:last-child{
+	margin-right: 0px;}
+div.daily_report_edit div.time-check_box div.detail_check ul.check li input{
+	vertical-align: middle;
+	margin-left: 5px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4); }
+
+div.daily_report_edit div.material_header{
+	margin-bottom: 10px; }
+div.daily_report_edit div.material_header div.name{
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #efefef;
+	width: 76%;
+	float: left;
+	padding: 1%; }
+div.daily_report_edit div.material_header div.quantity{
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #efefef;
+	width: 18%;
+	float: right;
+	padding: 1%; }
+div.daily_report_edit div.material{
+	margin-bottom: 10px; }
+div.daily_report_edit div.material div.name{
+	width: 78%;
+	float: left;}
+div.daily_report_edit div.material div.name select{
+	width: 98%;
+	padding: 1%; }
+div.daily_report_edit div.material div.quantity{
+	width: 20%;
+	float: right;}
+div.daily_report_edit div.material div.quantity input{
+	font-size: 16px;
+	width: 90%;
+	padding: 1%; }
+div.daily_report_edit div.material_btn{}
+div.daily_report_edit div.material_btn ul{
+	text-align: center;
+	margin-bottom: 20px;
+	list-style-type: none; }
+div.daily_report_edit div.material_btn ul li{
+	margin-right: 15px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.daily_report_edit div.material_btn ul li:last-child{
+	margin-right: 0; }
+div.daily_report_edit div.material_btn ul li a{
+	color: #fff;
+	font-size: 12px;
+	background-color: #6f6f6f;
+	padding: 10px 20px;
+	border-bottom: 2px solid #565656;
+	cursor: pointer;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.material_btn ul li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.daily_report_edit div.material_btn ul li span.remove{
+	color: #fff;
+	font-size: 12px;
+	background-color: #a3a3a3;
+	padding: 10px 15px;
+	border-bottom: 2px solid #8c8c8c;
+	cursor: pointer;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.material_btn ul li span.remove:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+div.daily_report_edit h4.sub_title2{
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.daily_report_edit textarea.text{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%; }
+div.daily_report_edit div.edit_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+div.daily_report_edit div.edit_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.daily_report_edit div.edit_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.daily_report_edit div.completion{
+	margin-bottom: 40px; }
+div.daily_report_edit div.completion span.check{
+	text-align: right;
+	vertical-align: top;
+	width: 6%;
+	margin-right: 1.5%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.daily_report_edit div.completion span.check input{
+	vertical-align: middle;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);}
+div.daily_report_edit div.completion span.check_copy{
+	color: #555;
+	font-size: 10px;
+	line-height: 1.5em;
+	width: 88%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+
+div.daily_report_edit table.time_check{
+	border: solid 1px #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;}
+div.daily_report_edit table.time_check th{
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	background: #efefef;
+	padding: 5px;
+	vertical-align: top;
+	border: solid 1px #ccc;}
+div.daily_report_edit table.time_check td{
+	color: #333;
+	font-size: 14px;
+	padding: 5px;
+	vertical-align: middle;
+	border: solid 1px #ccc;}
+div.check_browse{
+	margin-top: 20px;
+	margin-bottom: 40px; }
+div.check_browse ul.check{
+	text-align: center;
+	list-style-type: none;}
+div.check_browse ul.check li{
+	background-color: #fff;
+	margin-right: 10px;
+	padding: 5px 10px;
+	border: solid 1px #ccc;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.check_browse ul.check li:last-child{
+	margin-right: 0px;}
+
+div.daily_report_edit div.material div.name p{
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ccc; }
+div.daily_report_edit div.material div.quantity p{
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ccc; }
+
+div.daily_report_edit h4.sub_title3{
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.daily_report_edit p.body_txt{
+	color: #333;
+	font-size: 12px;
+	line-height: 1.5em; }
+div.daily_report_edit p.body_txt:last-child{
+	margin-bottom: 20px;
+}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.daily_report_edit{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.daily_report_edit div.inbox{
+	padding: 25px; }
+div.daily_report_edit h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+
+div.daily_report_edit ul.outline li{
+	width: 50%;
+	float: left;
+	margin-bottom: 15px; }
+div.daily_report_edit h2.company_name{
+	font-size: 14px;
+	margin-bottom: 20px; }
+div.daily_report_edit h3.end{
+	background-size: 70px auto;
+	min-height: 70px; }
+div.daily_report_edit h3.user_name span.name{
+	font-size: 18px; }
+div.daily_report_edit div.time-check_box ul.time li{
+	margin-bottom: 30px; }
+div.daily_report_edit div.time-check_box{
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px; }
+
+div.daily_report_edit div.time-check_box ul.time li{
+	font-size: 16px;
+	margin-bottom: 30px; }
+div.daily_report_edit div.time-check_box ul.time li span.required{
+	font-size: 12px;
+	padding: 2px 4px;}
+div.daily_report_edit div.time-check_box ul.time li span.time select.time_select{
+	font-size: 16px;
+	padding: 7px; }
+div.daily_report_edit div.time-check_box ul.time li span.time select.time_select option{}
+div.daily_report_edit div.time-check_box div.detail_check{}
+div.daily_report_edit div.time-check_box div.detail_check ul.check{
+	margin-top: 30px; }
+div.daily_report_edit div.time-check_box div.detail_check ul.check li{
+	font-size: 16px;
+	margin-right: 40px;}
+div.daily_report_edit div.time-check_box div.detail_check ul.check li input{
+	margin-left: 10px;
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6); }
+div.daily_report_edit div.material_header div.name{
+	font-size: 14px; }
+div.daily_report_edit div.material_header div.quantity{
+	font-size: 14px; }
+div.daily_report_edit div.material div.name select{
+	font-size: 16px; }
+div.daily_report_edit div.material div.quantity input{
+	width: 88%;
+	padding: 2%; }
+div.daily_report_edit h4.sub_title2{
+	font-size: 14px; }
+div.daily_report_edit div.edit_btn{
+	margin-bottom: 25px;
+}
+div.daily_report_edit div.edit_btn a{
+	font-size: 16px;
+	padding: 15px;
+	border-bottom: 3px solid #405071; }
+div.daily_report_edit div.completion span.check_copy{
+	font-size: 14px;}
+div.daily_report_edit div.completion span.check input{
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6);}
+
+div.daily_report_edit table.time_check th{
+	font-size: 16px;
+	padding: 10px;}
+div.daily_report_edit table.time_check td{
+	font-size: 16px;
+	padding: 10px;}
+div.check_browse{
+	margin-top: 30px;
+	margin-bottom: 50px; }
+div.check_browse ul.check li{
+	font-size: 14px;
+	margin-right: 15px;
+	padding: 8px 15px;}
+div.check_browse ul.check li:last-child{
+	margin-right: 0px;}
+
+div.daily_report_edit div.material div.name p{
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-left: 10px; }
+div.daily_report_edit div.material div.quantity p{
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-left: 10px; }
+
+div.daily_report_edit h4.sub_title3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 8px;
+	padding-bottom: 5px; }
+div.daily_report_edit p.body_txt{
+	font-size: 13px;
+	line-height: 1.5em; }
+
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

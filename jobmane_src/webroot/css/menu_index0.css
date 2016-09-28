@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.menu_index{
+	background-color: #fff;
+	margin-top: 10px; }
+div.menu_index div.inbox{
+	padding: 10px; }
+div.menu_index h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc; }
+div.menu_index ul.main_menu{}
+div.menu_index ul.main_menu li{
+	border-bottom: 1px solid #ccc; }
+div.menu_index ul.main_menu li a{
+	color: #222;
+	font-size: 14px;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	padding: 15px;
+	display: block; }
+div.menu_index ul.main_menu li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}
+div.menu_index div.manager{
+	background-color: #efefef;
+	padding: 10px;
+	border-bottom: 1px solid #ccc; }
+div.menu_index div.manager h2{
+	font-size: 12px;
+	padding-bottom: 10px; }
+div.menu_index div.manager h2 img{
+	vertical-align: middle;
+	margin-right: 10px; }
+div.menu_index div.manager ul.manager{
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	list-style-type: none; }
+div.menu_index div.manager ul.manager li{
+	border-bottom: 1px solid #ccc; }
+div.menu_index div.manager ul.manager li a{
+	font-size: 14px;
+	color: #222;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	padding: 15px;
+	display: block; }
+div.menu_index div.manager ul.manager li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.menu_index{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.menu_index div.inbox{
+	padding: 25px; }
+div.menu_index h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.menu_index ul.main_menu li a{
+	font-size: 16px;
+	padding: 20px; }
+div.menu_index div.manager{
+	padding: 15px; }
+div.menu_index div.manager h2{
+	font-size: 14px;
+	padding-bottom: 15px; }
+div.menu_index div.manager ul.manager li a{
+	font-size: 16px;
+	padding: 20px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

@@ -1,0 +1,27 @@
+(1) users.login
+  id                       user_id
+  password                  password
+(2) users.add
+  name                      name
+  user_id                   user_id
+  password                  password
+  email                     email
+  authority_select          
+  account_status
+  icon
+  medical_checkup_year_yy
+  medical_checkup_month_mm
+  medical_checkup_day_dd
+  joined_year_yy
+  joined_month_mm
+  joined_day_dd
+  leaving_year_yy
+  leaving_month_mm
+  leaving_day_dd
+  birthday_year_yy
+  birthday_month_mm
+  birthday_day_dd
+  blood_type
+  emergency
+  capabilities
+  safety

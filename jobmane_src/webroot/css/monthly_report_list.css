@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.monthly_report_list{
+	background-color: #fff;
+	margin-top: 10px; }
+div.monthly_report_list div.inbox{
+	padding: 10px; }
+div.monthly_report_list h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.monthly_report_list h2.monthly_title{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_list h2.monthly_title span.client{
+	margin-right: 5px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_list h2.monthly_title span.time{
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_list div.search_box{
+	background-color: #efefef;
+	padding: 15px 10px;
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_list div.search_box div.client{
+	margin-bottom: 20px; }
+div.monthly_report_list div.search_box div.client select.client{
+	font-size: 12px;
+	width: 100%; }
+div.monthly_report_list div.search_box div.client select.client option{
+	padding: 5px; }
+div.monthly_report_list div.search_box ul.time{
+	text-align: left;
+	list-style-type: none; }
+div.monthly_report_list div.search_box ul.time li{
+	margin-right: 20px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_list div.search_box ul.time li:last-child{
+	margin-right: 0px;}
+div.monthly_report_list div.search_box ul.time li select.time{
+	font-size: 12px;
+	margin-right: 3px;}
+div.monthly_report_list div.search_box ul.time li select.time option{
+	padding: 5px; }
+
+div.monthly_report_list ul.monthly_report_list{
+	list-style-type: none; }
+div.monthly_report_list ul.monthly_report_list li{
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_list ul.monthly_report_list li span.company_name{
+	font-size: 12px;
+	margin-bottom: 5px;
+	display: block; }
+div.monthly_report_list ul.monthly_report_list li h2.title{
+	font-size: 14px;
+	line-height: 1.5em; }
+div.monthly_report_list ul.monthly_report_list li a{
+	color: #333;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	padding: 10px;
+	display: block; }
+div.monthly_report_list ul.monthly_report_list li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+div.monthly_report_list ul.user_list{
+	 }
+div.monthly_report_list ul.user_list li{
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_list ul.user_list li div.avatar{
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin-right: 1.5%;
+	display: inline; }
+div.monthly_report_list ul.user_list li div.avatar img{
+	vertical-align: middle;
+	width: 100%;
+	max-width: 60px;
+	margin-top: 10px;
+	border-radius: 50%; }
+div.monthly_report_list ul.user_list li div.info{
+	width: 70%;
+	float: left;
+	display: inline;}
+div.monthly_report_list ul.user_list li div.info span.name{
+	color: #333;
+	font-size: 14px;
+	line-height: 1.5em;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis; }
+div.monthly_report_list ul.user_list li div.info ul.btn{
+	text-align: left; }
+div.monthly_report_list ul.user_list li div.info ul.btn li{
+	padding-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.monthly_report_list ul.user_list li div.info ul.btn li.edit{
+	margin-right: 10px; }
+div.monthly_report_list ul.user_list li div.info ul.btn li.browse{}
+div.monthly_report_list ul.user_list li div.info ul.btn li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.monthly_report_list ul.user_list li div.info ul.btn li a{
+	padding: 7px 30px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.monthly_report_list ul.user_list li div.info ul.btn li.edit a{
+	color: #fff;
+	background-color: #6d7ea3;
+	border-bottom: 2px solid #55668b; }
+div.monthly_report_list ul.user_list li div.info ul.btn li.browse a{
+	color: #fff;
+	background-color: #7a7a7a;
+	border-bottom: 2px solid #636363; }
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.monthly_report_list{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.monthly_report_list div.inbox{
+	padding: 25px; }
+div.monthly_report_list h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.monthly_report_list h2.monthly_title{
+	font-size: 18px;
+	padding-bottom: 15px; }
+div.monthly_report_list div.search_box{
+		padding: 25px 20px; }
+div.monthly_report_list div.search_box div.client select.client{
+	font-size: 16px; }
+div.monthly_report_list div.search_box ul.time li select.time{
+		font-size: 16px;
+		margin-right: 5px; }
+div.monthly_report_list div.search_box ul.time li select.time option{
+	padding: 6px; }
+div.monthly_report_list ul.monthly_report_list li{
+	border-bottom: 1px solid #ccc; }
+div.monthly_report_list ul.monthly_report_list li span.company_name{
+	font-size: 13px;
+	margin-bottom: 8px; }
+div.monthly_report_list ul.monthly_report_list li h2.title{
+	font-size: 16px; }
+div.monthly_report_list ul.monthly_report_list li a{
+	padding: 15px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

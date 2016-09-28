@@ -1,0 +1,418 @@
+@charset "utf-8";
+/*テキスト非表示*/
+.hidden { position: absolute; width: 0; height: 0; overflow: hidden }
+/*クリア*/
+.clear {
+	clear: both; }
+.clfx:after {
+	height: 0px; clear: both; display: block; visibility: hidden; max-height: 0px; content: ".";
+}
+.clfx {
+	display: inline-block;
+}
+* html .clfx {
+	height: 1%;
+}
+.clfx {
+	display: block;
+}
+
+a:hover img{
+opacity:0.7;
+filter: alpha(opacity=70);
+ }
+
+.inline-block{
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+/* @sitestyle */
+
+html {
+font-size : 75%; /*レスポンシブタイプセッティングの指定*/
+line-height : 1.5}
+body{
+	font-family: "Meiryo", "Meiryo UI", "MS UI Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif !important; }
+body{
+	background-color: #efefef;
+}
+
+/* @header */
+header{
+	background-color: #15274d;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 3px 4px rgba(0,0,0,0.20);
+	box-shadow: 0 3px 4px rgba(0,0,0,0.20); }
+header div.inbox{
+	position: relative; }
+header div.inbox ul{
+	text-align: center;
+	list-style-type: none; }
+header div.inbox ul li{}
+header div.inbox ul li.back_btn{
+	position: absolute;
+	left: 0; }
+header div.inbox ul li.back_btn span{
+	background-image: url(../img/header/back_btn.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 14px auto;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	display: block; }
+header div.inbox ul li.back_btn span:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}
+header div.inbox ul li.menu{
+	position: absolute;
+	right: 0;
+}
+header div.inbox ul li.menu span{
+	background-image: url(../img/header/menu_btn.png);
+	background-size: 28px auto;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+	cursor: pointer;
+	display: block; }
+header div.inbox ul li.menu span:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+header div.inbox ul li.logo{
+	color: #fff;
+	font-size: 14px;
+	font-family:"Roboto Slab", Garamond, "Times New Roman", 游明朝, "Yu Mincho", 游明朝体, YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", HiraMinProN-W3, HGS明朝E, "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+}
+/* @content */
+section#body{
+	background-color: #efefef;
+	padding-top: 40px; }
+div.login{
+	background-color: #fff;
+	width: 95%;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+	border-radius: 10px; }
+div.login dl.id{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	padding-bottom: 20px; }
+div.login dl.id dt{
+	color: #15274d;
+	font-size: 14px;
+	font-weight: bolder; }
+div.login dl.id dd{}
+div.login dl.id dd input{
+	font-size: 16px;
+	width: 95%;
+	padding: 5px;
+	border: solid 1px #ccc; }
+div.login dl.password{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px; }
+div.login dl.password dt{
+	color: #15274d;
+	font-size: 14px;
+	font-weight: bold; }
+div.login dl.password dd{}
+div.login dl.password dd input{
+	font-size: 16px;
+	width: 95%;
+	padding: 5px;
+	border: solid 1px #ccc; }
+div.login div.login_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto; }
+div.login div.login_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.login div.login_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @端末認証 */
+div.authentication{
+	background-color: #fff;
+	width: 95%;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	border-radius: 10px; }
+div.authentication div.inbox{
+	padding: 10px; }
+div.authentication h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.authentication dl.copy{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto; }
+div.authentication dl.copy dt{
+	color: #15274d;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	display: block; }
+div.authentication dl.copy dd{
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center; }
+div.authentication p.copy{
+	color: #15274d;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;}
+div.authentication p.copy2{
+	text-align: center; }
+div.authentication p.copy2 a{
+	color: #15274d;
+	font-size: 13px;
+	text-decoration: underline; }
+div.authentication p.copy2 a:hover{
+	text-decoration: none; }
+div.authentication div.authentication_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto; }
+div.authentication div.authentication_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.authentication div.authentication_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/*ページネーション*/
+ul.pagenation{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px; }
+ul.pagenation li{
+	font-size: 12px;
+	margin-top: 5px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+ul.pagenation li.active{
+	color: #15274d;
+	margin-right: 5px;
+	padding: 8px;
+	border: solid 1px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+ul.pagenation li a{
+	color: #666;
+	background-color: #fff;
+	text-decoration: none;
+	margin-right: 5px;
+	padding: 8px;
+	border: solid 1px #ccc;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+ul.pagenation li.prev{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px; }
+ul.pagenation li.next{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px; }
+ul.pagenation li.prev a{
+	background-color: transparent;
+	margin-right: 0;
+	padding: 0;
+	border-style: none;
+	border-width: 0; }
+ul.pagenation li.next a{
+	background-color: transparent;
+	margin-right: 0;
+	padding: 0;
+	border-style: none;
+	border-width: 0; }
+ul.pagenation li.prev img{
+	vertical-align: middle;
+	width: 25px;
+	margin-right: 5px; }
+ul.pagenation li.next img{
+	vertical-align: middle;
+	width: 25px;
+	margin-left: 5px; }
+/* @print */
+div.print_btn{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 10px; }
+div.print_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.print_btn a img{
+	vertical-align: middle;
+	margin-right: 5px; }
+div.print_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+div.print_btn ul.pagenation{
+	text-align: left;
+	margin-right: 15px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.print_btn ul.pagenation li a{
+	font-size: 11px; }
+div.print_btn ul.pagenation li.prev{
+	float: none !important;
+	margin-right: 15px;
+	margin-top: 0px !important;
+	margin-left: 0px !important; }
+div.print_btn ul.pagenation li.next{
+	float: none !important;
+	margin-top: 0px !important;
+	margin-right: 0px !important; }
+div.print_btn p.number{
+	color: #777777;
+	margin-left: 1.5%;
+	margin-top: 10px;
+	float: left;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+header div.inbox ul li.logo{
+		font-size: 20px; }
+header div.inbox{
+		width: 768px;
+		margin-right: auto;
+		margin-left: auto; }
+header div.inbox ul li.back_btn span{
+		padding-top: 10px; }
+header div.inbox ul li.menu span{
+		padding-top: 10px; }
+/* @content */
+div.login{
+	background-color: #fff;
+	width: 520px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 80px; }
+div.login dl.id{
+	padding-top: 60px;
+	padding-bottom: 30px; }
+div.login dl.password{
+	padding-bottom: 40px; }
+div.login div.login_btn a{
+	padding: 12px;
+	border-bottom: 3px solid #405071;}
+/* @端末認証 */
+div.authentication{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.authentication div.inbox{
+	padding: 25px; }
+div.authentication h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.authentication dl.copy dt{
+	font-size: 14px; }
+div.authentication dl.copy dd{
+	font-size: 16px; }
+div.authentication div.authentication_btn a{
+	font-size: 16px; }
+div.authentication p.copy{
+	font-size: 14px;}
+div.authentication p.copy2 a{
+	font-size: 14px; }
+/* @print */
+div.print_btn{
+		text-align: right;
+		width: 640px;
+		margin: 30px auto -15px; }
+div.print_btn a{
+		padding-right: 20px;
+		padding-left: 20px;
+		border-bottom-width: 3px; }
+div.print_btn a img{
+		margin-right: 8px; }
+div.print_btn ul.pagenation{
+	margin-right: 20px;}
+div.print_btn ul.pagenation li a{
+	font-size: 14px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

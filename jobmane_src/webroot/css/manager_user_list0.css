@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.manager_user_list{
+	background-color: #fff;
+	margin-top: 10px; }
+div.manager_user_list div.inbox{
+	padding: 10px; }
+div.manager_user_list h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.manager_user_list div.edit_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+
+div.manager_user_list div.edit_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	background-image: url(../img/common/gray_arrow.png);
+	background-size: 14px auto;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.manager_user_list div.edit_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+div.manager_user_list div.mail_btn{
+	background-color: #efefef;
+	z-index: 1000;
+	padding: 10px;
+	border-radius: 10px; }
+
+div.manager_user_list div.mail_btn ul{}
+div.manager_user_list div.mail_btn ul li{
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_user_list div.mail_btn ul li.title{
+	font-size: 12px;
+	font-weight: bold; }
+div.manager_user_list div.mail_btn ul li.all_btn{
+	margin-right: 3px; }
+div.manager_user_list div.mail_btn ul li.all_btn a{
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px 7px;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);}
+div.manager_user_list div.mail_btn ul li.all_btn a img{
+	vertical-align: middle;
+	width: 20px;
+	margin-left: 3px; }
+div.manager_user_list div.mail_btn ul li.all_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_user_list div.mail_btn ul li.check_btn{}
+div.manager_user_list div.mail_btn ul li.check_btn span{
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 5px 7px;
+	cursor: pointer;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2); }
+div.manager_user_list div.mail_btn ul li.check_btn span img{
+	vertical-align: middle;
+	width: 20px;
+	margin-left: 3px; }
+div.manager_user_list div.mail_btn ul li.check_btn span:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+div.manager_user_list ul.user_list{
+	 }
+div.manager_user_list ul.user_list li{
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc; }
+div.manager_user_list ul.user_list li div.avatar{
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin-right: 1.5%;
+	display: inline; }
+div.manager_user_list ul.user_list li div.avatar img{
+	vertical-align: middle;
+	width: 100%;
+	max-width: 60px;
+	margin-top: 10px;
+	border-radius: 50%; }
+div.manager_user_list ul.user_list li div.info{
+	position: relative;
+	width: 75%;
+	float: left;
+	display: inline; }
+div.manager_user_list ul.user_list li div.info span.check{
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	display: block; }
+div.manager_user_list ul.user_list li div.info span.check input{
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);	 }
+div.manager_user_list ul.user_list li div.info span.name{
+	color: #333;
+	font-size: 14px;
+	line-height: 1.5em;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis; }
+div.manager_user_list ul.user_list li div.info ul.btn{
+	text-align: left; }
+div.manager_user_list ul.user_list li div.info ul.btn li{
+	padding-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.manager_user_list ul.user_list li div.info ul.btn li.edit{
+	margin-right: 5px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.browse{
+	margin-right: 3px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.delete{}
+div.manager_user_list ul.user_list li div.info ul.btn li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_user_list ul.user_list li div.info ul.btn li a{
+	padding: 7px 17px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.edit a{
+	color: #fff;
+	background-color: #6d7ea3;
+	border-bottom: 2px solid #55668b; }
+div.manager_user_list ul.user_list li div.info ul.btn li.browse a{
+	color: #fff;
+	background-color: #7a7a7a;
+	border-bottom: 2px solid #636363; }
+div.manager_user_list ul.user_list li div.info ul.btn li.delete span{
+	color: #fff;
+	background-color: #a3a3a3;
+	border-bottom: 2px solid #8c8c8c;
+	cursor: pointer;
+	padding: 7px 17px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;
+	border-radius: 10px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.delete span:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.manager_user_list{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.manager_user_list div.inbox{
+	padding: 25px; }
+div.manager_user_list h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+
+div.manager_user_list div.edit_btn{
+		text-align: center; }
+div.manager_user_list div.edit_btn a{
+		font-size: 16px;
+		padding-right: 120px;
+		padding-left: 110px;
+		border-bottom: 3px solid #405071;
+		display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+
+div.manager_user_list div.mail_btn{
+	padding: 15px; }
+div.manager_user_list div.mail_btn ul li.title{
+	font-size: 14px; }
+div.manager_user_list div.mail_btn ul li.all_btn{
+	margin-right: 5px; }
+div.manager_user_list div.mail_btn ul li.all_btn a{
+	font-size: 14px;
+	padding: 7px 10px;}
+div.manager_user_list div.mail_btn ul li.all_btn a img{
+	width: 31px;
+	margin-left: 5px; }
+div.manager_user_list div.mail_btn ul li.check_btn span{
+	font-size: 14px;
+	padding: 7px 10px; }
+div.manager_user_list div.mail_btn ul li.check_btn span img{
+	width: 31px;
+	margin-left: 5px; }
+
+div.manager_user_list ul.user_list li div.info ul.btn li.edit{
+	margin-right: 8px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.browse{
+	margin-right: 8px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.delete{}
+div.manager_user_list ul.user_list li div.info ul.btn li a{
+	padding: 10px 20px; }
+div.manager_user_list ul.user_list li div.info ul.btn li.delete span{
+	padding: 10px 20px; }
+div.manager_user_list ul.user_list li div.info span.check input{
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6);	 }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

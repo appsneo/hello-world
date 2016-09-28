@@ -1,0 +1,658 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.manager_project_detail{
+	background-color: #fff;
+	position: relative;
+	margin-top: 10px; }
+div.manager_project_detail div.inbox{
+	padding: 10px; }
+div.manager_project_detail h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.manager_project_detail h2.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_project_detail h2.sub_title2{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc; }
+div.manager_project_detail h3.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_project_detail h3.sub_title img{
+	vertical-align: middle;
+	margin-right: 5px; }
+div.manager_project_detail span.required{
+	color: #fff;
+	font-size: 10px;
+	background-color: #ff3f3f;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding: 2px 4px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail input.text{
+	color: #333;
+	font-size: 16px;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail select.client{
+	font-size: 12px;
+	width: 100%;
+	margin-bottom: 20px; }
+div.manager_project_detail select.client option{
+	padding: 5px; }
+
+div.manager_project_detail select.category{
+	font-size: 12px;
+	width: 100%;
+	margin-bottom: 20px; }
+div.manager_project_detail select.category option{
+	padding: 5px; }
+div.manager_project_detail div.money{
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 20px; }
+div.manager_project_detail div.money input.money{
+	font-size: 16px;
+	text-align: right;
+	width: 50%;
+	margin-right: 5px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail div.period{
+	background-color: #efefef;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px; }
+div.manager_project_detail div.period input.day{
+	font-size: 16px;
+	width: 80%;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail div.period div.start{
+	width: 50%;
+	float: left; }
+div.manager_project_detail div.period div.start:after{content:"～";}
+div.manager_project_detail div.period div.end{
+	width: 50%;
+	float: right; }
+
+div.manager_project_detail div.period_btn{}
+div.manager_project_detail div.period_btn ul{
+	text-align: center;
+	margin-bottom: 20px;
+	list-style-type: none; }
+div.manager_project_detail div.period_btn ul li{
+	margin-right: 15px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.manager_project_detailt div.period_btn ul li:last-child{
+	margin-right: 0; }
+div.manager_project_detail div.period_btn ul li a{
+	color: #fff;
+	font-size: 12px;
+	background-color: #6f6f6f;
+	padding: 10px 20px;
+	border-bottom: 2px solid #565656;
+	cursor: pointer;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail div.period_btn ul li a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_project_detail div.period_btn ul li span.remove{
+	color: #fff;
+	font-size: 12px;
+	background-color: #a3a3a3;
+	padding: 10px 15px;
+	border-bottom: 2px solid #8c8c8c;
+	cursor: pointer;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail div.period_btn ul li span.remove:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_project_detail textarea.text{
+	color: #333;
+	font-size: 16px;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail div.charge{
+	width: 90%;}
+div.manager_project_detail div.charge:after{content:"さん";}
+div.manager_project_detail input.charge{
+	color: #333;
+	font-size: 16px;
+	width: 80%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail ul.operator_list{
+	margin-bottom: 20px;
+	list-style-type: none; }
+div.manager_project_detail ul.operator_list li{
+	font-size: 13px;
+	background-color: #efefef;
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	display: inline;
+	border-radius: 10px; }
+div.manager_project_detail ul.operator_list li dl{}
+div.manager_project_detail ul.operator_list li dl dt{
+	text-align: center;
+	width: 15%;
+	float: left;
+	display: block; }
+div.manager_project_detail ul.operator_list li dl dd{
+	width: 83.5%;
+	float: left;
+	padding-left: 1.5%;
+	word-wrap: break-word; }
+div.manager_project_detail ul.operator_list li:nth-child(even){
+	margin-right: 0; }
+div.manager_project_detail ul.operator_list li label{
+	padding: 10px;
+	cursor: pointer;
+	display: block; }
+div.manager_project_detail ul.operator_list li input{
+	vertical-align: middle;
+	margin-right: 5px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4); }
+div.manager_project_detail div#select-file{
+	margin-bottom: 20px;
+	margin-left: 10px; }
+div.manager_project_detail div#select-file input{}
+div.manager_project_detail div.save_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+div.manager_project_detail div.save_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.manager_project_detail div.save_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.manager_project_detail div.completion{
+	margin-bottom: 40px; }
+div.manager_project_detail div.completion span.check{
+	text-align: right;
+	vertical-align: top;
+	width: 6%;
+	margin-right: 1.5%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail div.completion span.check input{
+	vertical-align: middle;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4);}
+div.manager_project_detail div.completion span.check_copy{
+	color: #555;
+	font-size: 10px;
+	line-height: 1.5em;
+	width: 88%;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+
+div.manager_project_detail_single{
+	background-color: #fff;
+	margin-top: 10px; }
+div.manager_project_detail_single div.inbox{
+	padding: 10px; }
+div.manager_project_detail_single h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.manager_project_detail_single h2.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_project_detail_single h3.sub_title{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 5px; }
+div.manager_project_detail_single h3.sub_title img{
+	vertical-align: middle;
+	margin-right: 5px; }
+div.manager_project_detail_single span.required{
+	color: #fff;
+	font-size: 10px;
+	background-color: #ff3f3f;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding: 2px 4px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail_single input.text{
+	color: #333;
+	font-size: 16px;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail_single textarea.text{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 97%;
+	margin-bottom: 20px;
+	padding: 1.2%;
+	border: solid 1px #ccc; }
+div.manager_project_detail_single div.period{
+	background-color: #efefef;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px; }
+div.manager_project_detail_single div.period input.day{
+	font-size: 16px;
+	width: 80%;
+	padding: 1.5%;
+	border: solid 1px #ccc; }
+div.manager_project_detail_single div.period div.start{
+	width: 50%;
+	float: left; }
+div.manager_project_detail_single div.period div.start:after{content:"～";}
+div.manager_project_detail_single div.period div.end{
+	width: 50%;
+	float: right; }
+div.manager_project_detail_single ul.operator_list{
+	margin-bottom: 20px;
+	list-style-type: none; }
+div.manager_project_detail_single ul.operator_list li{
+	font-size: 13px;
+	background-color: #efefef;
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	display: inline;
+	border-radius: 10px; }
+div.manager_project_detail_single ul.operator_list li dl{}
+div.manager_project_detail_single ul.operator_list li dl dt{
+	text-align: center;
+	width: 15%;
+	float: left;
+	display: block; }
+div.manager_project_detail_single ul.operator_list li dl dd{
+	width: 83.5%;
+	float: left;
+	padding-left: 1.5%;
+	word-wrap: break-word; }
+div.manager_project_detail_single ul.operator_list li:nth-child(even){
+	margin-right: 0; }
+div.manager_project_detail_single ul.operator_list li label{
+	padding: 10px;
+	cursor: pointer;
+	display: block; }
+div.manager_project_detail_single ul.operator_list li input{
+	vertical-align: middle;
+	margin-right: 5px;
+	-moz-transform:		scale(1.4);
+	-webkit-transform:	scale(1.4);
+	transform:		scale(1.4); }
+div.manager_project_detail_single div.save_btn{
+	width: 80%;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto; }
+div.manager_project_detail_single div.save_btn a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #55668b;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid #405071;
+	display: block;
+	border-radius: 10px; }
+div.manager_project_detail_single div.save_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+
+
+/* @エラー時 */
+div.manager_project_detail ul.error{
+	background-color: #ffd9d9;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: solid 1px #ff3f3f;
+	list-style-type: none; }
+div.manager_project_detail ul.error li{
+	color: #ff3f3f;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: -10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail ul.error li:before {content:"・";}
+div.manager_project_detail_single ul.error,div.manager_project_detail ul.error{
+	background-color: #ffd9d9;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: solid 1px #ff3f3f;
+	list-style-type: none; }
+div.manager_project_detail_single ul.error li,div.manager_project_detail ul.error li{
+	color: #ff3f3f;
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: -10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.manager_project_detail_single ul.error li:before,div.manager_project_detail ul.error li:before {content:"・";}
+/* @カレンダー */
+	.sample {
+		padding: 6px;
+	}
+	
+	.sample .calendar {
+		-webkit-appearance: none;
+		
+		display: inline-block;
+		width: 180px;
+		height: 48px;
+		padding: 4px 12px;
+		
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		letter-spacing: 0.1em;
+		
+		color: #333;
+		background: #fff;
+		border-radius: 6px;
+		border: solid 2px #ccc;
+	}
+
+	/* カレンダー自体を大きく */
+	.ui-datepicker {
+
+		
+		overflow: hidden;
+		
+		width: 270px;
+		height: 340px;
+		
+		background: #fff;
+		border: solid 3px #ccc;
+		border-radius: 12px;
+		
+	}
+	
+	/* タイトルと矢印 */
+	.ui-datepicker .ui-datepicker-header {
+		padding: 6px;
+		
+		font-size: 18px;
+		
+		color: #fff;
+		background: #000;
+		border-radius: 6px 6px 0 0;
+	}
+	
+	/* 矢印 */
+	.ui-datepicker .ui-datepicker-prev,
+	.ui-datepicker .ui-datepicker-next {
+		top: auto;
+	}
+	.ui-datepicker-prev::after,
+	.ui-datepicker-next::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		
+		margin: auto;
+		
+		display: block;
+		width: 12px;
+		height: 12px;
+		
+		border: 2px solid;
+		
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.ui-datepicker-prev::after {
+		border-color: transparent transparent #fff #fff;
+	}
+	.ui-datepicker-next::after {
+		border-color: #fff #fff transparent transparent;
+	}
+	
+	/* 曜日 */
+	.ui-datepicker th {
+		padding: 5px 3px 3px 5px;
+		
+		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
+		
+		color: #000;
+		border-bottom: 1px solid #000;
+	}
+	
+	/* 日付の文字と余白を大きく */
+	.ui-datepicker td span,
+	.ui-datepicker td a {
+		padding: 7px 4px;
+		
+		font-size: 14px;
+		text-align: center;
+		
+		color: #333;
+		border-radius: 4px;
+	}
+	
+	/* 選択中 */
+	.ui-datepicker td a.ui-state-active {
+		color: #fff;
+		background: #15274d;
+		
+		box-shadow: inset 0 0 0 1px #fff;
+	}
+	
+	/* 今日 */
+	.ui-datepicker td a.ui-state-highlight {
+		border: 2px solid #15274d;
+	}
+	
+	/* ボタンパネル */
+	.ui-datepicker .ui-datepicker-buttonpane {
+		position: absolute;
+		left: 3px;
+		right: 3px;
+		bottom: 3px;
+		
+		padding: 0;
+		
+		border-top: 1px solid #000;
+	}
+	.ui-datepicker .ui-datepicker-buttonpane button {
+		-webkit-appearance: none;
+		
+		min-width: 60px;
+		margin: 3px 0 0;
+		padding: 6px;
+		
+		font-size: 14px;
+		
+		color: #fff;
+		background: #000;
+		border: 0 none;
+		border-radius: 6px;}
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.manager_project_detail{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.manager_project_detail div.inbox{
+	padding: 25px; }
+div.manager_project_detail h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.manager_project_detail h2.sub_title{
+	font-size: 14px;
+	margin-bottom: 10px; }
+div.manager_project_detail span.required{
+	font-size: 12px;
+	margin-left: 7px;
+	padding: 2px 6px;}
+div.manager_project_detail h2.sub_title2{
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding-bottom: 5px }
+div.manager_project_detail select.client{
+		font-size: 14px; }
+div.manager_project_detail select.category{
+		font-size: 14px; }
+div.manager_project_detail div.money{
+	font-size: 14px;
+	margin-bottom: 25px; }
+div.manager_project_detail div.period input.day{
+	width: 88%; }
+div.manager_project_detail input.charge{
+	width: 85%; }
+div.manager_project_detail ul.operator_list li{
+	font-size: 16px;}
+div.manager_project_detail ul.operator_list li input{
+	margin-right: 7px;
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6); }
+
+div.manager_project_detail div.save_btn a{
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #405071; }
+div.manager_project_detail div#select-file{
+	margin-bottom: 30px; }
+div.manager_project_detail div.completion span.check_copy{
+	font-size: 14px;}
+div.manager_project_detail div.completion span.check input{
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6);}
+
+
+div.manager_project_detail_single{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.manager_project_detail_single div.inbox{
+	padding: 25px; }
+div.manager_project_detail_single h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+div.manager_project_detail_single h2.sub_title{
+	font-size: 14px; }
+div.manager_project_detail_single span.required{
+		font-size: 12px;
+		margin-left: 7px;
+		padding-right: 6px;
+		padding-left: 6px; }
+div.manager_project_detail_single div.period input.day{
+	width: 88%; }
+div.manager_project_detail_single ul.operator_list li{
+	font-size: 16px;}
+div.manager_project_detail_single ul.operator_list li input{
+	margin-right: 7px;
+	-moz-transform:		scale(1.6);
+	-webkit-transform:	scale(1.6);
+	transform:		scale(1.6); }
+div.manager_project_detail div.charge:after{
+		font-size: 16px; }
+div.manager_project_detail_single div.save_btn a{
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #405071; }
+/* @footer */
+	/* カレンダー自体を大きく */
+	.ui-datepicker {
+
+		
+		overflow: hidden;
+		
+		width: 350px;
+		height: 380px;
+		
+		background: #fff;
+		border: solid 6px #ccc;
+		border-radius: 12px;
+		
+	}
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

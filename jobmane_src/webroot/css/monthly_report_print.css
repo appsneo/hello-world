@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+div.monthly_report_print{
+	background-color: #fff;
+	margin-top: 10px; }
+div.monthly_report_print div.inbox{
+	padding: 10px; }
+div.monthly_report_print div.title{
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px 10px; }
+div.monthly_report_print div.title span.copy{
+	margin-right: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_print div.title span.year{
+	margin-right: 5px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.monthly_report_print div.title span.month{
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+
+div.monthly_report_print table.info {
+	border: solid 1px #000;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 20px; }
+div.monthly_report_print table.info th {
+	color: #000;
+	font-size: 9px;
+	font-weight: normal;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0 0;
+	padding: 3px;
+	vertical-align: top;
+	border: solid 1px; }
+div.monthly_report_print table.info td {
+	color: #000;
+	font-size: 9px;
+	text-align: left;
+	padding: 3px;
+	vertical-align: middle;
+	border: solid 1px; }
+div.monthly_report_print table.detail {
+	border: solid 1px #000;
+	text-align: center;
+	border-collapse: collapse;
+	vertical-align: middle;
+	margin-bottom: 20px; }
+div.monthly_report_print table.detail th {
+	color: #000;
+	font-size: 9px;
+	font-weight: normal;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0 0;
+	padding: 3px;
+	vertical-align: middle;
+	border: solid 1px; }
+div.monthly_report_print table.detail td {
+	color: #000;
+	font-size: 9px;
+	text-align: center;
+	padding: 3px;
+	vertical-align: middle;
+	border: solid 1px; }
+
+div.monthly_report_print table.report_list {
+	border: solid 1px #000;
+	text-align: center;
+	border-collapse: collapse;
+	vertical-align: middle; }
+div.monthly_report_print table.report_list th {
+	color: #000;
+	font-size: 8px;
+	font-weight: normal;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0 0;
+	padding: 2px;
+	vertical-align: middle;
+	border: solid 1px; }
+div.monthly_report_print table.report_list td {
+	color: #000;
+	font-size: 8px;
+	text-align: center;
+	padding: 2px;
+	vertical-align: middle;
+	border: solid 1px; }
+div.monthly_report_print table.report_list td p.ellipsis {
+	position: relative;
+	overflow: hidden;
+	line-height: 1.5em;
+	max-height: 25px; }
+
+div.monthly_report_print table.report_list td p.ellipsis:before, div.monthly_report_print table.report_list td p.ellipsis:after {
+	position: absolute;
+	background: #fff;
+}
+
+div.monthly_report_print table.report_list td p.ellipsis:before {
+	content: "･･･";
+	bottom: 0;
+	right: 0;
+}
+div.monthly_report_print table.report_list td p.ellipsis:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+}
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+div.monthly_report_print{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.monthly_report_print div.inbox{
+	padding: 25px; }
+
+div.monthly_report_print table.report_list th {
+	font-size: 9px;
+	padding: 3px; }
+div.monthly_report_print table.report_list td {
+	font-size: 9px;
+	padding: 3px; }
+
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}

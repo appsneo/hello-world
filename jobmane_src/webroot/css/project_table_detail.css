@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* @header */
+
+/* @content */
+
+/* @detail */
+div.project_table_detail{
+	background-color: #fff;
+	margin-top: 10px; }
+div.project_table_detail div.inbox{
+	padding: 10px; }
+div.project_table_detail h1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px; }
+div.project_table_detail div.list_btn{
+	margin-bottom: 15px; }
+div.project_table_detail div.list_btn a{
+	color: #666;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1; }
+div.project_table_detail div.list_btn a img{
+	width: 10px;
+	vertical-align: middle;
+	margin-right: 10px; }
+div.project_table_detail div.list_btn a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);}
+div.project_table_detail h2.title{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px; }
+div.project_table_detail span{
+	font-size: 12px;
+	margin-left: 5px;
+	display: inline-block;
+	*display: inline;  
+	*zoom: 1;}
+div.project_table_detail span.not_started{
+	color: #fff;
+	font-weight: normal;
+	background-color: #878787;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px #878787;}
+div.project_table_detail span.progress{
+	color: #fff;
+	font-weight: normal;
+	background-color: #15274d;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px #15274d;}
+div.project_table_detail span.end{
+	color: #ff4242;
+	font-weight: normal;
+	background-color: #fff;
+	width: 3em;
+	border-radius: 10px;
+	padding: 2px 5px;
+	border: solid 2px;}
+
+div.project_table_detail table.memo{
+	border: solid 1px #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 20px; }
+div.project_table_detail table.memo th{
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	background: #efefef;
+	text-align: left;
+	padding: 5px;
+	vertical-align: top;
+	border: solid 1px #ccc; }
+div.project_table_detail table.memo td{
+	color: #333;
+	font-size: 12px;
+	text-align: left;
+	padding: 5px;
+	vertical-align: middle;
+	border: solid 1px #ccc; }
+
+div.project_table_detail table.work_list{
+	border: solid 1px #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;}
+div.project_table_detail table.work_list th{
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	background: #efefef;
+	text-align: left;
+	padding: 5px;
+	vertical-align: top;
+	border: solid 1px #ccc; }
+div.project_table_detail table.work_list td{
+	color: #333;
+	font-size: 12px;
+	text-align: left;
+	padding: 5px;
+	vertical-align: middle;
+	border: solid 1px #ccc; }
+thead#clonetable th{
+	font-weight: normal;
+	text-align: left; }
+/* @footer */
+
+/* ------------------------------------------
+  iPad768pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 768px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @detail */
+div.project_table_detail{
+		width: 640px;
+		margin-top: 25px;
+		margin-right: auto;
+		margin-left: auto; }
+div.project_table_detail div.inbox{
+	padding: 25px; }
+div.project_table_detail h1{
+	font-size: 14px;
+	padding-bottom: 25px; }
+
+div.project_table_detail h2.title{
+	font-size: 18px;
+	margin-top: 40px;
+	padding-left: 10px; }
+div.project_table_detail div.list_btn a{
+	font-size: 14px; }
+div.project_table_detail span{
+		font-size: 14px;
+		margin-left: 10px;
+		padding-right: 20px !important;
+		padding-left: 20px !important; }
+
+div.project_table_detail table.memo{
+	margin-bottom: 30px; }
+div.project_table_detail table.memo th{
+	font-size: 14px;
+	padding: 10px;}
+div.project_table_detail table.memo td{
+	font-size: 14px;
+	padding: 10px; }
+
+div.project_table_detail table.work_list th{
+	font-size: 14px;
+	padding: 10px; }
+div.project_table_detail table.work_list td{
+	font-size: 13px;
+	padding: 10px; }
+/* @footer */
+
+}
+/* ------------------------------------------
+  pc980pxSTYLE
+--------------------------------------------- */
+@media all and (min-width: 980px) {
+/* @sitestyle */
+
+/* @header */
+
+/* @content */
+
+/* @footer */
+
+}
